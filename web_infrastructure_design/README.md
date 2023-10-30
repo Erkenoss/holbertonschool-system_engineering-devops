@@ -18,14 +18,14 @@ This README provides an overview of key concepts related to web infrastructure a
 - A database's primary role is to store application data securely.
 - DNS (Domain Name System) translates domain names into IP addresses, allowing users to reach websites using friendly names.
 
-## DNS Records and Single Points of Failure
+## DNS Records
 
 - An A record in DNS maps a domain name to an IP address.
 - So, for example, www.foobar.com, <www> wwill be change in IP adress by A record.
-- A single server in an infrastructure can be a single point of failure due to a lack of redundancy.
 
-## Deployment and Scalability
+## Deployment, SPOF and Scalability
 
+- A single server in an infrastructure can be a single point of failure (or SPOF) due to a lack of redundancy.
 - When new code is deployed, the web server might need to be restarted, causing temporary downtime.
 - An infrastructure with a single server is not scalable and cannot handle traffic that exceeds the server's capacity.
 
