@@ -37,3 +37,14 @@ This README provides an overview of key concepts related to web infrastructure a
 
 - TCP/IP is a data link protocol used on the Internet to enable computers and other devices to send and receive data.
 - The acronym TCP/IP stands for Transmission Control Protocol/Internet Protocol. It allows devices connected to the Internet to communicate with each other across networks.
+
+## ADD ELEMENT
+
+- I have add a new flowchart: This file 1-distributed_web_infrastructure
+- I have add HAproxy, a new web server, a new appli server and this own codebase.
+- The Haproxy is a load-balancer. He is use for keep an eye on the trafic network and dispatch the different users between the different web server.
+- The other web and appli server work as a pair, same for codebase. If we have one momre web server, we need a new appli server by convinience and for keep the trafic under control.
+
+ ## NEW FEATURE
+
+- 
